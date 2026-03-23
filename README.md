@@ -1,5 +1,4 @@
 # Capstone-Project-147
 OneKart
 
-Discover the perfect blend of style and innovation at OneKart. Shop our curated selection of men's apparel, women's fashion, and premium electronics—all designed to bring elegance into your everyday life.
-
+Welcome to OneKart, a modern e-commerce platform dedicated to quality and craftsmanship. Whether you are refreshing your wardrobe with our exclusive men's and women's collections or upgrading your daily tech with top-tier electronics, OneKart provides a seamless and premium shopping experience. We span the full lifestyle spectrum, offering curated goods that share a single ethos: craftsmanship without compromise.
