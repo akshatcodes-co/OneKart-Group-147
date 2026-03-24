@@ -1,3 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OneKart — Curated Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <input type="checkbox" id="nav-toggle"    class="sr-only" aria-hidden="true">
+  <input type="checkbox" id="search-toggle" class="sr-only" aria-hidden="true">
+
+  <nav id="main-nav">
+    <a href="/" class="nav-logo" aria-label="OneKart home">OneKart</a>
+    <ul class="nav-links" role="list">
+      <li><a href="/pages/new.html">New In</a></li>
+      <li><a href="/pages/women.html">Women</a></li>
+      <li><a href="/pages/men.html">Men</a></li>
+      <li><a href="/pages/electronics.html">Electronics</a></li>
+      <li><a href="/pages/sale.html">Sale</a></li>
+    </ul>
+    <div class="nav-actions">
+      <label class="nav-icon" for="search-toggle" role="button" tabindex="0" aria-label="Open search">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </label>
+      <button class="nav-icon" aria-label="Account">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+      </button>
+      <button class="nav-icon" aria-label="Shopping bag">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+      </button>
+      <label class="nav-hamburger" for="nav-toggle" role="button" tabindex="0" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </nav>
+
+  <div class="nav-mobile-drawer" id="nav-mobile-drawer">
+    <a href="/pages/new.html">New In</a>
+    <a href="/pages/women.html">Women</a>
+    <a href="/pages/men.html">Men</a>
+    <a href="/pages/electronics.html">Electronics</a>
+    <a href="/pages/sale.html">Sale</a>
+  </div>
+
+  <div class="search-overlay" id="search-overlay">
+    <label class="search-overlay-bg" for="search-toggle" aria-label="Close search"></label>
+    <div class="search-box">
+      <input class="search-input" type="search" placeholder="Search products…" autocomplete="off" aria-label="Search products">
+    </div>
+  </div>
 
 
 
@@ -152,4 +215,49 @@
 
   </main>
 
-  
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">OneKart</div>
+          <p>Curated luxury fashion for the modern aesthete. We believe in quality, craftsmanship, and timeless style.</p>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-title">Shop</p>
+          <ul>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Women's Collection</a></li>
+            <li><a href="#">Men's Collection</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-title">Help</p>
+          <ul>
+            <li><a href="#">FAQ &amp; Contact</a></li>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-title">Newsletter</p>
+          <p class="footer-nl-desc">Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <div class="footer-nl-form">
+            <input type="email" placeholder="Enter your email" aria-label="Newsletter email">
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 OneKart. All rights reserved.</span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
